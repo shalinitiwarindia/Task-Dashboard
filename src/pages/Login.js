@@ -24,7 +24,7 @@ function Login() {
 
   return (
     <div className="flex items-center justify-center h-screen bg-gray-100">
-      <form onSubmit={handleSubmit} className="bg-white p-8 rounded-xl shadow w-80">
+      <form onSubmit={handleSubmit} className="bg-white p-8 rounded-xl shadow w-11/12 max-w-sm mx-auto">
         <h2 className="text-xl font-bold mb-4">Login</h2>
 
         {error && <p className="text-red-500 mb-2">{error}</p>}

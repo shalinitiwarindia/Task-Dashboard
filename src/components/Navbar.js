@@ -10,9 +10,12 @@ function Navbar() {
   };
 
   return (
-    <div className="bg-white shadow p-4 flex justify-between">
-      <h2 className="font-bold">Task Dashboard</h2>
-      <button onClick={logout} className="bg-red-500 text-white px-4 py-1 rounded">
+    <div className="bg-white shadow p-4 flex flex-col md:flex-row justify-between items-start md:items-center">
+      <h2 className="font-bold mb-2 md:mb-0">Task Dashboard</h2>
+      <button
+        onClick={logout}
+        className="bg-red-500 text-white px-4 py-1 rounded"
+      >
         Logout
       </button>
     </div>
